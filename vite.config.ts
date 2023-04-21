@@ -28,7 +28,7 @@ const vitePWA = VitePWA({
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/',
+  base: 'dev_finder',
   plugins: [react(), svgr(), vitePWA],
   resolve: {
     alias: {
